@@ -1,0 +1,77 @@
+{
+  "avaliacao": "CHECKPOINT 01 - MLAM",
+  "disciplina": "Modelagem Linear para Aprendizado de Maquina",
+  "nome": "Kenichi Caio Yamamoto",
+  "rm": "569815",
+  "seed": 154523045,
+  "dados_gerados": {
+    "dados_q1": [
+      74,
+      65,
+      72,
+      89,
+      90,
+      71
+    ],
+    "valores_q2": [
+      6,
+      8,
+      9,
+      9
+    ],
+    "pesos_q2": [
+      2,
+      4,
+      4,
+      5
+    ],
+    "dados_q3": [
+      51,
+      82,
+      94,
+      47,
+      68,
+      88
+    ],
+    "dados_q4": [
+      17,
+      22,
+      12,
+      13,
+      14
+    ],
+    "pesos_q4": [
+      2,
+      6,
+      4,
+      6,
+      4
+    ],
+    "dados_q5": [
+      24,
+      18,
+      23,
+      41,
+      19,
+      24,
+      35
+    ],
+    "dados_q6": [
+      124,
+      93,
+      83,
+      73,
+      104,
+      124
+    ]
+  },
+  "respostas": {
+    "resposta_q1": 76.83333333333333,
+    "resposta_q2": 8.333333333333334,
+    "resposta_q3": 320.22222222222223,
+    "resposta_q4": 15.818181818181818,
+    "resposta_q5": 26.285714285714285,
+    "resposta_q6_variancia": 372.47222222222223,
+    "resposta_q6_desvio": 19.299539430313413
+  }
+}

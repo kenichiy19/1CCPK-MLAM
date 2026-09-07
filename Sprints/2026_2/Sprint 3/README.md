@@ -9,8 +9,6 @@ Este repositório contém o projeto acadêmico de Estatística e Ciência de Dad
 
 O objetivo principal do trabalho é conectar conceitos da estatística descritiva e inferencial à construção e interpretação de um modelo preditivo de Aprendizado de Máquina Supervisionado.
 
----
-
 ## Estrutura do Projeto
 
 O projeto foi desenvolvido em um único arquivo no Google Colab, dividido em 4 etapas práticas:
@@ -19,8 +17,6 @@ O projeto foi desenvolvido em um único arquivo no Google Colab, dividido em 4 e
 * **Exercício 02 — Análise de Padrões:** Verificação do comportamento da amostra para conferir a porcentagem de salários que ficam dentro da faixa mais comum.
 * **Exercício 03 — Criação do Modelo de Previsão:** Construção do gráfico e da linha de tendência que calcula a estimativa de salário a partir dos anos de experiência.
 * **Exercício 04 — Interpretação dos Resultados:** Explicação sobre por que escolhemos essa informação para o modelo, avaliação da sua precisão e identificação dos seus limites práticos.
-
----
 
 ## Principais Resultados
 
@@ -31,23 +27,17 @@ O projeto foi desenvolvido em um único arquivo no Google Colab, dividido em 4 e
 * **Equação da Reta Preditiva:** $\text{Salário} = 24.848,20 + 9.449,96 \times \text{Experiência}$
 * **Coeficiente de Determinação ($R^2$):** $0,9570$ ($95,70\%$ de variância explicada)
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 * **Linguagem:** Python 3.x
 * **Ambiente:** Google Colab / Jupyter Notebook
 * **Bibliotecas:** Pandas, NumPy, Matplotlib, Scikit-Learn
 
----
-
 ## Arquivos no Repositório
 
 * `Salary_Data.csv`: Base de dados utilizada no projeto.
 * `SPRINT_3.ipynb`: Notebook com todo o código, saídas e gráficos dos Exercícios 01 a 04.
 * `README.md`: Documentação e resumo do projeto.
-
----
 
 ## Integrantes do Grupo
 

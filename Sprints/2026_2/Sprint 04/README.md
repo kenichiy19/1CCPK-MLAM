@@ -1,22 +1,13 @@
 # Classificação da Produção de Energia Renovável com Modelo Linear
 
-**Challenge Sprint 4 – Modelagem Linear para Aprendizado de Máquina**
+**Challenge Sprint 04 – Ciência da Computação | 1CCPK 2026**
 
-## Integrantes
-
-| Nome | RM |
-|---|---|
-| Felipe Pereira Restivo | 570712 |
-| Gabriel Rodrigues Zappelloni | 572060 |
-| Kenichi Caio Yamamoto | 569815 |
-| Maykon de Lima Silva | 574022 |
-| Rodger Costa Rios | 571438 |
+**Disciplina:** Modelagem Linear para Aprendizado de Máquinas
 
 ## Vídeo de apresentação
 
 [Assista no YouTube](COLE_AQUI_O_LINK_DO_VIDEO)
 
----
 
 ## Sobre o projeto
 
@@ -33,21 +24,11 @@ Este projeto classifica a produção de energia renovável em três categorias (
 |---|---|
 | `MLAM_SPRINT_04.ipynb` | Notebook com todo o código, os resultados e as análises |
 | `Renewable_Energy_Data.csv` | Base de dados utilizada |
-| `imagens/matriz_correlacao.png` | Matriz de correlação |
-| `imagens/matriz_confusao_cenario1.png` | Matriz de confusão do Cenário 1 |
-| `imagens/matriz_confusao_cenario2.png` | Matriz de confusão do Cenário 2 |
-| `imagens/metricas.csv` | Acurácia, precisão e recall dos dois cenários |
-| `imagens/variacao_acuracia.csv` | Variação da acurácia em 30 divisões diferentes dos dados |
-
-## Como executar
-
-1. Abra o notebook no [Google Colab](https://colab.research.google.com/).
-2. Envie o arquivo `Renewable_Energy_Data.csv` pelo ícone de pasta na barra lateral.
-3. Vá em **Ambiente de execução → Executar tudo**.
-
-Bibliotecas utilizadas: `pandas`, `matplotlib`, `seaborn` e `scikit-learn`, todas já instaladas no Colab.
-
----
+| `resultados/matriz_correlacao.png` | Matriz de correlação |
+| `resultados/matriz_confusao_cenario1.png` | Matriz de confusão do Cenário 1 |
+| `resultados/matriz_confusao_cenario2.png` | Matriz de confusão do Cenário 2 |
+| `resultados/metricas.csv` | Acurácia, precisão e recall dos dois cenários |
+| `resultados/variacao_acuracia.csv` | Variação da acurácia em 30 divisões diferentes dos dados |
 
 ## Etapas e resultados
 
@@ -55,7 +36,7 @@ Bibliotecas utilizadas: `pandas`, `matplotlib`, `seaborn` e `scikit-learn`, toda
 
 A variável-alvo `Energy_Class` foi convertida para números respeitando a ordem das classes (Low = 0, Medium = 1, High = 2). Em seguida, construímos a matriz de correlação entre as features numéricas e a classe.
 
-![Matriz de correlação](imagens/matriz_correlacao.png)
+![Matriz de correlação](resultados/matriz_correlacao.png)
 
 Apenas a `Efficiency_Ratio` mostrou alguma correlação com a classe (0,21). Mesmo assim, optamos por usar **todas as features numéricas**: ao testar o modelo retirando uma feature por vez, vimos que algumas delas, mesmo com correlação quase nula, ajudam na classificação quando combinadas com as outras. Por exemplo, sem a `Temperature_C`, a acurácia cai de 79,0% para 73,8%.
 
@@ -84,7 +65,7 @@ Como referência, um modelo que sempre respondesse a classe mais comum (High) ac
 
 | Cenário 1 (60/40) | Cenário 2 (85/15) |
 |---|---|
-| ![Matriz de confusão – Cenário 1](imagens/matriz_confusao_cenario1.png) | ![Matriz de confusão – Cenário 2](imagens/matriz_confusao_cenario2.png) |
+| ![Matriz de confusão – Cenário 1](resultados/matriz_confusao_cenario1.png) | ![Matriz de confusão – Cenário 2](resultados/matriz_confusao_cenario2.png) |
 
 **Variação em 30 divisões diferentes dos dados:**
 
@@ -98,3 +79,25 @@ Como referência, um modelo que sempre respondesse a classe mais comum (High) ac
 A Regressão Logística alcançou cerca de **79% de acurácia**, bem acima da referência de 48,6%, com resultados semelhantes nos dois cenários. Ao repetir os experimentos com 30 divisões diferentes, as médias ficaram muito próximas, o que indica que, neste dataset, a proporção entre treino e teste teve pouco impacto no resultado.
 
 A principal limitação do modelo é a classe **Low**, que tem menos exemplos e é frequentemente confundida com a classe Medium. Para melhorar esse resultado, poderiam ser testados modelos não lineares ou técnicas para equilibrar as classes durante o treinamento.
+
+## Como executar
+
+1. Abra o notebook no [Google Colab](https://colab.research.google.com/).
+2. Envie o arquivo `Renewable_Energy_Data.csv` pelo ícone de pasta na barra lateral.
+3. Vá em **Ambiente de execução → Executar tudo**.
+
+## Tecnologias Utilizadas
+
+- **Linguagem:** Python 3.x
+- **Ambiente:** Google Colab / Jupyter Notebook
+- **Bibliotecas:** Pandas, Seaborn, Matplotlib, Scikit-Learn
+
+## Integrantes do Grupo
+
+- Felipe Pereira Restivo - RM: 570712
+- Gabriel Rodrigues Zappelloni - RM: 572060
+- Kenichi Caio Yamamoto - RM: 569815
+- Maykon de Lima Silva – RM: 574022
+- Rodger Costa Rios - RM: 571438
+
+*Projeto acadêmico desenvolvido para a avaliação da Challenge Sprint.*

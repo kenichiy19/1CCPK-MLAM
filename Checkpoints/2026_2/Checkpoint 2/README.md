@@ -73,7 +73,6 @@ Assim, o PIB acompanha bem a tendência de longo prazo do fluxo rodoviário, mas
 ## Integrantes do Grupo
 
     Felipe Pereira Restivo - RM: 570712
-    Gabriel Rodrigues Zappelloni - RM: 572060
     Kenichi Caio Yamamoto - RM: 569815
     Maykon de Lima Silva – RM: 574022
     Rodger Costa Rios - RM: 571438

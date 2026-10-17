@@ -1,0 +1,3 @@
+Cenário,Acurácia,Precisão (macro),Recall (macro)
+Cenario 1 (60/40),0.79,0.815,0.721
+Cenario 2 (85/15),0.78,0.773,0.732

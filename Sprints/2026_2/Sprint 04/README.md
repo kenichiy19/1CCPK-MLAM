@@ -6,7 +6,7 @@
 
 ## Vídeo de apresentação
 
-[Assista no YouTube](COLE_AQUI_O_LINK_DO_VIDEO)
+[Assista no YouTube](https://youtu.be/mpy68ldyQto)
 
 
 ## Sobre o projeto

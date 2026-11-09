@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75c1a0d6-ff59-42d5-ba47-e339e70ae187" name="Changes" comment="Commit inicial da Global Solution 2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kenichiy19&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kenichiy19/1CCPK-MLAM.git&quot;,
+    &quot;accountId&quot;: &quot;9f4c5603-bad6-447f-994b-4e068fc7297c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3KMlfreMgxXI5jROVzb3l1mQpto" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Kenichi/PycharmProjects/1CCPK-MLAM/Global Solutions/2026_2/notebooks"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kenichi\PycharmProjects\1CCPK-MLAM\Global Solutions\2026_2\notebooks" />
+      <recent name="C:\Users\Kenichi\PycharmProjects\1CCPK-MLAM\Global Solutions\2026_2" />
+      <recent name="C:\Users\Kenichi\PycharmProjects\1CCPK-MLAM\Sprints\2026_2\Sprint 04" />
+      <recent name="C:\Users\Kenichi\PycharmProjects\1CCPK-MLAM\Checkpoints\2026_2\Checkpoint 2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kenichi\PycharmProjects\1CCPK-MLAM\Checkpoints\2026_2\Checkpoint 2\dados" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75c1a0d6-ff59-42d5-ba47-e339e70ae187" name="Changes" comment="" />
+      <created>1791375423376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791375423376</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit de entrega do checkpoint">
+      <option name="closed" value="true" />
+      <created>1791375886761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791375886761</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit de entrega do checkpoint">
+      <option name="closed" value="true" />
+      <created>1792257373023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792257373023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit de entrega do checkpoint">
+      <option name="closed" value="true" />
+      <created>1792264171694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792264171694</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit de entrega do checkpoint">
+      <option name="closed" value="true" />
+      <created>1792264452526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1792264452526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit de entrega do checkpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit de entrega do checkpoint" />
+  </component>
+</project>

@@ -1,14 +1,8 @@
-# Vulnerabilidade Social nos Municípios Brasileiros
+# Vulnerabilidade Social nos Municípios Brasileiros | Desafio CitizenTech
 
-**Global Solution – Modelagem Linear para Aprendizado de Máquinas (MLAM) | Desafio CitizenTech**
-FIAP – Ciência da Computação – 2026
+**Global Solution 2 – Ciência da Computação | 1CCPK 2026**
 
-## Integrantes
-
-| Nome | RM |
-|---|---|
-| Kenichi Caio Yamamoto | 569815 |
-| Rodger Costa Rios | 571438 |
+Disciplina: Modelagem Linear para Aprendizado de Máquinas
 
 ## Problema e objetivo
 
@@ -43,9 +37,9 @@ dados/
   base_municipios_2010.csv        → base tratada, gerada pelo notebook 01
 notebooks/
   01_preparacao_dados.ipynb       → leitura, filtro, limpeza e criação da variável PRIORITARIO
-  02_analises.ipynb               → itens 02 a 06 (probabilidade, testes, regressões)
+  02_analises.ipynb               → probabilidade, testes e regressões
 relatorio/
-  relatorio_estatistico_GS_MLAM.pdf → relatório estatístico (item 07)
+  relatorio_estatistico_GS_MLAM.pdf → relatório estatístico
 README.md
 ```
 
@@ -59,22 +53,6 @@ Os notebooks foram desenvolvidos no **Google Colab** e já estão salvos com as 
 4. Abra o notebook `02_analises.ipynb` e execute as células em ordem. Quando solicitado, envie o arquivo `base_municipios_2010.csv`.
 
 Para obter os mesmos resultados, os sorteios utilizam semente fixa (`random_state = 42`).
-
-## Bibliotecas utilizadas
-
-- Python 3
-- pandas
-- NumPy
-- SciPy
-- Matplotlib
-- Seaborn
-- scikit-learn
-
-Todas já estão disponíveis no Google Colab. Para executar localmente:
-
-```
-pip install pandas numpy scipy matplotlib seaborn scikit-learn openpyxl
-```
 
 ## Principais resultados
 
@@ -92,3 +70,20 @@ pip install pandas numpy scipy matplotlib seaborn scikit-learn openpyxl
 - Os resultados indicam **associação, e não causalidade**.
 - A **Distribuição Normal** e os **modelos lineares** são aproximações do comportamento real dos dados.
 - Os resultados descrevem **municípios**, e não indivíduos.
+
+## Tecnologias Utilizadas
+* **Linguagem:** Python
+* **Processamento:** Pandas (leitura, filtragem e estruturação dos dados) e NumPy (operações numéricas)
+* **Análise estatística:** SciPy (Distribuição Normal, testes de hipóteses e teste F)
+* **Modelagem:** scikit-learn (regressão linear simples e múltipla, regressão logística e divisão treino/teste)
+* **Visualização:** Matplotlib e Seaborn (histogramas, gráficos de dispersão, mapas de calor e matriz de confusão)
+* **Ambiente:** Google Colab
+
+## Integrantes do Grupo
+
+Kenichi Caio Yamamoto - RM: 569815
+
+Rodger Costa Rios - RM: 571438
+
+---
+*Documentação desenvolvida como parte da Global Solution do desafio CitizenTech, com foco na priorização de soluções de apoio ao cidadão em municípios vulneráveis.*
